@@ -5,6 +5,8 @@ En el siguiente proyecto, exploramos como resolver dos problemas del tipo _Const
 - En el caso de CSP, resolvemos el problema de _Boolean satisfiability problem_ (3-SAT). Puede encontrar su implementación en `csp.ipynb`
 - En el caso del Problema de Busqueda, utilizamos A\* para resolver el problema del _Sliding Puzzle_. Puede encontrar su implementación en `search.ipynb`
 
+A su vez, se modifico el código de `astar` en el archivo `generic_search.py` para añadir una función de costo y añadir un límite de movimientos.
+
 Alumnos:
 
 - Juan Diego Rodríguez Espinoza - A01667431
