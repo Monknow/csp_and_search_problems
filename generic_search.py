@@ -191,7 +191,7 @@ def astar(initial: T, goal_test: Callable[[T], bool], successors: Callable[[T], 
     # explored is where we've been
     explored: Dict[T, float] = {initial: 0.0}
 
-    movement_limit = 50
+    movement_limit = 100
 
     # keep going while there is more to explore
     while not frontier.empty:
